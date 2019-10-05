@@ -17,7 +17,8 @@ class Author
   end
   
   delf self.post_count
-  @@posts.count
+  Post.all.count
+end
     
   
   
