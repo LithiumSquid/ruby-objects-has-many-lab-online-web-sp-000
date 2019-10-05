@@ -6,6 +6,8 @@ class Author
     @authors = []
   end
   
+  def add_post(post)
+    
   
   
   
