@@ -13,7 +13,7 @@ class Author
   
   add_post_by_title(title)
     post = Post.new(title)
-    author
+    add_post = post
     
   
   
