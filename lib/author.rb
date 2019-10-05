@@ -12,7 +12,7 @@ class Author
   end
   
   def posts
-    Post.all.select{|x|
+    Post.all.select{|x| x.author
   
   add_post_by_title(title)
     post = Post.new(title)
