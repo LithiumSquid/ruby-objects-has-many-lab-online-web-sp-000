@@ -1,4 +1,4 @@
-dclass Song
+class Song
   attr_accessor :name, :artist
   
   @@all = []
@@ -14,6 +14,6 @@ dclass Song
   
   def artist_name
     self.artist.name
-end
+  end
 
 end
