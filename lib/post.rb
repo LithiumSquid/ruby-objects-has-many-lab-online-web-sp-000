@@ -16,7 +16,8 @@ class Post
     if self.author.name == true
       return self.author.name
     else
-      return end
+      return
+      nil
     end
   end
   
