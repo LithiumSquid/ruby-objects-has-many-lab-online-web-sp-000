@@ -15,12 +15,12 @@ class Author
     Post.all.select{|x| x.author == self}
   end
   
-  add_post_by_title(title)
+  def add_post_by_title(title)
     post = Post.new(title)
     add_post(post)
   end
   
-  delf self.post_count
+  def self.post_count
   Post.all.count
 end
     
